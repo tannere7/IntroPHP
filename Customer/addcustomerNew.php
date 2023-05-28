@@ -1,8 +1,7 @@
-<!-- Tanner -->
 <!-- Form to view and update customer information. Includes a dropdown menu to update the customers country.
 Can update any information within the form, and it will update within the SQL database-->
 <?php
-include '../view/header.php';
+include '../view/header.php'
 
 if (session_status() === PHP_SESSION_NONE) {
     session_start();

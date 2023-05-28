@@ -14,11 +14,11 @@ if (!isset($_SESSION['loginadmin']) || $_SESSION['loginadmin'] != "yes") {
 echo "<html><main><body>
    <body class='addform'>";
 $host = 'webdev.bentley.edu';
-$db = 'jfarry';
+$db = 'teisenhut';
 
 //connection string
 $dsn = "mysql:host=$host;dbname=$db;charset=UTF8";
-$pdo = new PDO ($dsn, 'jfarry', '3333');
+$pdo = new PDO ($dsn, 'teisenhut', '5656');
 $sql = "SELECT incidentID, productCode, title, description FROM incidents WHERE dateClosed IS NULL; ";
 $stmt = $pdo->query($sql);
 $stmt->fetch();

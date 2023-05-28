@@ -1,5 +1,3 @@
-<!-- McKenzie Sullivan -->
-
 <?php
 // enter new user in database
 require ("../model/database.php");
@@ -11,7 +9,7 @@ error_reporting(0);
 // allow MySQLi error reporting and Exception handling
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 try {
-    $con = mysqli_connect("webdev.bentley.edu", "jfarry", "3333", "jfarry");
+    $con = mysqli_connect("webdev.bentley.edu", "teisenhut", "5656", "teisenhut");
 
     echo '
 <html><main>

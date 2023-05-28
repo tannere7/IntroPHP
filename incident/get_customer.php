@@ -1,4 +1,3 @@
-<!-- Evan Levine-->
 <?php
 // enter new user in database
 include '../view/header.php';
@@ -8,7 +7,7 @@ error_reporting(0);
 // allow MySQLi error reporting and Exception handling
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 try {
-    $con = mysqli_connect("webdev.bentley.edu", "jfarry", "3333", "jfarry");
+    $con = mysqli_connect("webdev.bentley.edu", "teisenhut", "5656", "teisenhut");
 }catch(Exception $e){
     echo '<h1>Database Error</h1>
     <p>An error occurred while attempting to work with the database.</p>

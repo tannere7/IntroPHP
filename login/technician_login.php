@@ -1,4 +1,3 @@
-<!-- Evan Levine -->
 <?php
 include '../view/header.php';
 if (session_status() === PHP_SESSION_NONE) {
@@ -19,10 +18,11 @@ if (isset($_SESSION['techlogin']) AND $_SESSION['techlogin'] = "yes") {
 
     if(isset($_POST['submittech'])) {
         try {
-            $con = mysqli_connect("webdev.bentley.edu", "jfarry", "3333", "jfarry");
+            $con = mysqli_connect("webdev.bentley.edu", "teisenhut", "5656", "teisenhut");
 
             $ema = $_POST['emailtech'];
             $pw = $_POST['passwordtech'];
+            
 
             $_SESSION['emailtech1'] = $ema;
             $_SESSION['passtech1'] = $pw;

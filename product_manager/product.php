@@ -1,8 +1,6 @@
-<!-- McKenzie Sullivan-->
-
 <?php
 try{
-$con = mysqli_connect("webdev.bentley.edu", "jfarry", "3333", "jfarry");
+$con = mysqli_connect("webdev.bentley.edu", "teisenhut", "5656", "teisenhut");
 
 // variables for countries table
 try {

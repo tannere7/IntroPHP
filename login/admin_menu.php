@@ -1,4 +1,3 @@
-<!-- Tanner Eisenhut and Julia Farry -->
 <?php
 include '../view/header.php';
 if (session_status() === PHP_SESSION_NONE) {
@@ -14,7 +13,7 @@ $user = $_SESSION['adminloginuser'];
 
 
 try{
-    $con = mysqli_connect("webdev.bentley.edu", "jfarry", "3333", "jfarry");
+    $con = mysqli_connect("webdev.bentley.edu", "teisenhut", "5656", "teisenhut");
 
 
     echo '

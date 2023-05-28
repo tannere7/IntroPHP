@@ -1,5 +1,3 @@
-<!-- Julia Farry -->
-
 <?php
 require('../model/database.php');
 include '../view/header.php';
@@ -19,7 +17,7 @@ mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 try {
     // Connect to MySQL, select database
-    $con = mysqli_connect("webdev.bentley.edu", "jfarry", "3333", "jfarry");
+    $con = mysqli_connect("webdev.bentley.edu", "teisenhut", "5656", "teisenhut");
 
     if (! empty($_POST['email'])) {
         $Code = $_POST['email'];

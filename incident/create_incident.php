@@ -1,5 +1,3 @@
-<!-- Julia Farry -->
-
 <?php
 include '../view/header.php';
 
@@ -11,7 +9,7 @@ if (!isset($_SESSION['loginadmin']) || $_SESSION['loginadmin'] != "yes") {
     exit;
 }
 
-$con = mysqli_connect("webdev.bentley.edu", "jfarry", "3333", "jfarry");
+$con = mysqli_connect("webdev.bentley.edu", "teisenhut", "5656", "teisenhut");
 
 $ema = $_POST['email'];
 

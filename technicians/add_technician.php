@@ -1,4 +1,3 @@
-<!-- Evan Levine -->
 <?php
 include '../view/header.php';
 

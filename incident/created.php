@@ -4,7 +4,7 @@
 include '../view/header.php';
 
 try{
-$con = mysqli_connect("webdev.bentley.edu", "jfarry", "3333", "jfarry");
+$con = mysqli_connect("webdev.bentley.edu", "teisenhut", "5656", "teisenhut");
 $prod = $_POST['Product'];
 $customer = $_POST['cide'];
 try{

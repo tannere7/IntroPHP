@@ -1,4 +1,3 @@
-<!-- Evan Levine and Tanner Eisenhut-->
 <?php
 include '../view/header.php';
 
@@ -19,7 +18,7 @@ if (isset($_SESSION['loginadmin']) AND $_SESSION['loginadmin'] = "yes") {
         $password = $_POST['passworda'];
         try {
             // Connect to the database
-            $con = mysqli_connect("webdev.bentley.edu", "jfarry", "3333", "jfarry");
+            $con = mysqli_connect("webdev.bentley.edu", "teisenhut", "5656", "teisenhut");
 
             // Check if the username and password are correct
             $query1 = mysqli_prepare($con, "SELECT * FROM administrators WHERE username=? AND password=?;");

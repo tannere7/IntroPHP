@@ -1,4 +1,3 @@
-<!-- Tanner -->
 <!-- Form to view and update customer information. Includes a dropdown menu to update the customers country.
 Can update any information within the form, and it will update within the SQL database-->
 <?php
@@ -12,7 +11,7 @@ if (!isset($_SESSION['loginadmin']) || $_SESSION['loginadmin'] != "yes") {
 }
 
 try {
-    $con = mysqli_connect("webdev.bentley.edu", "jfarry", "3333", "jfarry");
+    $con = mysqli_connect("webdev.bentley.edu", "teisenhut", "5656", "teisenhut");
 
     $custID = $_POST['rownumber'];
 //$sql = "SELECT * FROM customers WHERE customerID=$custID";

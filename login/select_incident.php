@@ -1,4 +1,3 @@
-<!-- Julia Farry -->
 <?php
 include '../view/header.php';
 if (session_status() === PHP_SESSION_NONE) {
@@ -20,7 +19,7 @@ if (!isset($_SESSION['techlogin']) || $_SESSION['techlogin'] != "yes") {
 
 
 try{
-    $con = mysqli_connect("webdev.bentley.edu", "jfarry", "3333", "jfarry");
+    $con = mysqli_connect("webdev.bentley.edu", "teisenhut", "5656", "teisenhut");
 
     //$ema = $_POST['emailtech'];
     $ema = $_SESSION['emailtech1'];

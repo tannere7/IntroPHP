@@ -1,4 +1,3 @@
-<!-- Tanner -->
 <!-- Manage customers from homepage. Searches for customer last name,
  then customer information can be viewed or updated -->
 <?php
@@ -25,7 +24,7 @@ echo "<html><main>
    <body class='addform'>";
 
 try{
-    $con = mysqli_connect("webdev.bentley.edu", "jfarry", "3333", "jfarry");
+    $con = mysqli_connect("webdev.bentley.edu", "teisenhut", "5656", "teisenhut");
 // Create search box for customer last name
     echo "<h1>"."Customer Search"."</h1>";
     echo "<table><form action='customerNew.php' method='Post'>";

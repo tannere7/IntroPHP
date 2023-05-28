@@ -1,4 +1,3 @@
-<!-- McKenzie Sullivan and Julia Farry-->
 <?php
 include '../view/header.php';
 if (session_status() === PHP_SESSION_NONE) {
