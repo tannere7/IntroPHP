@@ -1,5 +1,3 @@
-<!-- Julia Farry -->
-
 
 <?php
 include '../view/header.php';
